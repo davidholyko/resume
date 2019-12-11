@@ -9,10 +9,10 @@ const workExperiences = [
     location: 'Waltham, MA',
     tags: ['JavaScript', 'TypeScript', 'React', 'Redux', 'NestJS', 'PHP'],
     descriptions: [
-      'Oversees development of rebuilding a finance application using NestJS',
+      'Coordinated with multiple developers to rebuild a finance application with modern technologies',
       'Maintains finance application that uses PHP/Java',
-      'Built reusable, functional components for client with React',
-      'Built feature for internal scrum project JavaScript/PHP'
+      'Built reusable, functional components with unit testing',
+      'Assisted in content management for multiple WordPress, Drupal, and Bolt websites'
     ]
   }
 ]
