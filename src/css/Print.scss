@@ -23,7 +23,7 @@
 
   html {
     height: 100%;
-    font-size: 12px;
+    font-size: 10px;
     background-color: white;
   }
 
@@ -57,5 +57,9 @@
 
   .img {
     display: none;
+  }
+
+  .skill {
+    border: 0.5px solid #eee;
   }
 }
