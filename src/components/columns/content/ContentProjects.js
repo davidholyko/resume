@@ -10,7 +10,7 @@ const projects = [
     repo: 'https://github.com/codeforboston/communityconnect',
     description: [
       'Established a system to organize CSS files for streamlined development',
-      'Made refactoring recommendations to improve site performance',
+      'Executed refactoring recommendations to improve site performance',
       'Guided onboarding developers through environment setup'
     ]
   },
@@ -23,7 +23,7 @@ const projects = [
     description: [
       'Launched a open forum website that helps developers find specific answers',
       'Built front end with a modern framework to facilitate maintainability and modularity',
-      'Designed an API with Ruby on Rails that utilizes numerous relationships and serializes nested associations'
+      'Designed an API with Ruby on Rails for rapid development'
     ]
   },
   // {
@@ -48,7 +48,7 @@ const projects = [
     description: [
       'Envisioned a responsive user-friendly puzzle game that helps people think faster',
       'Implemented a procedural generation algorithm that produces multiple choice logic',
-      'Consolidated code into reducable and modular bits for future improvement'
+      'Simplified code into reducable and modular bits for future improvement'
     ]
   }
 ]
