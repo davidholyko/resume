@@ -26,19 +26,19 @@ const projects = [
       'Spearheaded an API with Ruby on Rails that utilizes numerous relationships and serializes nested associations'
     ]
   },
-  {
-    title: 'LetterBox',
-    summary: 'A user friendly, text-only blogsite for cat lovers everywhere',
-    skills: 'JavaScript HTML CSS Express.js MongoDB Mobile-Design',
-    deployed: 'https://m-d-h-s.github.io/mdhs-blog-frontend',
-    repo: 'https://github.com/davidholyko/mdhs-blog-frontend',
-    description: [
-      'Produced a blogsite that allows users use CRUD actions on resources',
-      'Collborated with group according to product development methodologies including Agile',
-      'Coordinated with team to plan wireframes and Entity Relationship Diagrams',
-      'Engineered Handlebars.js template for dynamic HTML generation'
-    ]
-  },
+  // {
+  //   title: 'LetterBox',
+  //   summary: 'A user friendly, text-only blogsite for cat lovers everywhere',
+  //   skills: 'JavaScript HTML CSS Express.js MongoDB Mobile-Design',
+  //   deployed: 'https://m-d-h-s.github.io/mdhs-blog-frontend',
+  //   repo: 'https://github.com/davidholyko/mdhs-blog-frontend',
+  //   description: [
+  //     'Produced a blogsite that allows users use CRUD actions on resources',
+  //     'Collborated with group according to product development methodologies including Agile',
+  //     'Coordinated with team to plan wireframes and Entity Relationship Diagrams',
+  //     'Engineered Handlebars.js template for dynamic HTML generation'
+  //   ]
+  // },
   {
     title: 'Brain Age',
     summary: 'A game application inspired by Brain Age for the Nintendo DS',
