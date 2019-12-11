@@ -4,13 +4,13 @@ import ContentProjectItem from './ContentProjectItem'
 const projects = [
   {
     title: 'CommunityConnect',
-    summary: 'Code For Boston Open Source Project',
+    summary: 'A Code For Boston open source project',
     skills: 'JavaScript HTML CSS React Redux GoogleSheets',
     deployed: 'https://ccfor.me/',
     repo: 'https://github.com/codeforboston/communityconnect',
     description: [
-      'Implemented a system to organize CSS for streamlined development',
-      'Improved site performance by fixing urgent bugs',
+      'Established a system to organize CSS files for streamlined development',
+      'Made refactoring recommendations to improve site performance',
       'Guided onboarding developers through environment setup'
     ]
   },
@@ -22,8 +22,8 @@ const projects = [
     repo: 'https://github.com/davidholyko/dko-stackoverko-client',
     description: [
       'Launched a open forum website that helps developers find specific answers',
-      'Built Front End with React.js to emphasize modularity and boost performance',
-      'Spearheaded an API with Ruby on Rails that utilizes numerous relationships and serializes nested associations'
+      'Built front end with a modern framework to facilitate maintainability and modularity',
+      'Designed an API with Ruby on Rails that utilizes numerous relationships and serializes nested associations'
     ]
   },
   // {
@@ -47,9 +47,8 @@ const projects = [
     deployed: 'https://davidholyko.github.io/dko-brain-age-front-end',
     description: [
       'Envisioned a responsive user-friendly puzzle game that helps people think faster',
-      'Implemented a Procedural Generation Algorithm that produces multiple choice logic',
-      'Efficiently utilized existing Node packages such as Math.js and Chart.js to optimize time management',
-      'Consolidated code into reducable and modular bits for future improvement with Handlebars.js'
+      'Implemented a procedural generation algorithm that produces multiple choice logic',
+      'Consolidated code into reducable and modular bits for future improvement'
     ]
   }
 ]

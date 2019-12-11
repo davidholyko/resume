@@ -11,7 +11,7 @@ const works = [
   {
     date: 'June 2018 - July 2018',
     company: 'Manning Personnel Group',
-    title: 'Cryprocurrency Compliance Specialist',
+    title: 'Cryptocurrency Compliance Specialist',
     location: 'Boston, MA'
   },
   {

@@ -4,13 +4,13 @@ import ContentSoftwareExperienceItem from './ContentSoftwareExperienceItem'
 const workExperiences = [
   {
     date: 'May 2019 - Present',
-    company: 'F1V',
+    company: 'F1V Web Consulting',
     title: 'JavaScript Engineer',
     location: 'Waltham, MA',
     tags: ['JavaScript', 'TypeScript', 'React', 'Redux', 'NestJS', 'PHP'],
     descriptions: [
       'Coordinates with multiple developers to rebuild a finance application with modern technologies',
-      'Maintains and debugs a legacynfinance application',
+      'Maintains and debugs a legacy finance application',
       'Builds reusable, functional components with unit testing',
       'Assists in content management for multiple WordPress, Drupal, and Bolt websites'
     ]

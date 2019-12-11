@@ -10,7 +10,7 @@ const educations = [
     description: [
       'Full time 500+ Web Development Immersive Program',
       'Developed four Full Stack web applications using JavaScript, HTML, CSS, and Ruby',
-      'Collaborated with a team using Agile methodology and Scrum principles'
+      'Collaborated with a team using agile methodology and scrum principles'
     ]
   },
   {
