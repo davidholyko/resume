@@ -24,7 +24,7 @@ const works = [
 
 const ContentWorkHistory = () => (
   <div className="content-work-history">
-    <h3 className="text-center border-bottom my-3">Other Work History</h3>
+    <h3 className="text-center border-bottom my-3">Other Work Experience</h3>
     {works.map((work, index) => (
       <ContentWorkHistoryItem key={index} work={work} />
     ))}
