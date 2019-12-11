@@ -19,6 +19,7 @@ class Print extends Component {
     return (
       <React.Fragment>
         <ReactToPrint
+          className="react-to-print d-none"
           trigger={() => <a href="#">Print this out!</a>}
           content={() => this.componentRef}
         />
