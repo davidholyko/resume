@@ -1,6 +1,5 @@
 # Installation
 
-
 Clone
 
 ```
@@ -19,7 +18,6 @@ npm run deploy
 
 # Don't forget to replace
 
-
 - [ ] public/favicon.ico
 - [ ] public/index.html line 11: meta og:image tag
 - [ ] public/index.html line 17: title
@@ -29,8 +27,8 @@ npm run deploy
 - [ ] src/components/columns/InfoColumn.js deployed text
 - [ ] package.json "homepage" link line 3
 
-
 public/index.html line 11 and line 17
+
 ```
 
 // this is a preview image for linkedin/facebook
@@ -44,6 +42,7 @@ public/index.html line 11 and line 17
 ```
 
 src/components/columns/InfoColumn.js line 23
+
 ```
 <div className="info-item mt-auto pb-5 d-flex flex-column">
   <span>This resume is made with React.js and</span>
@@ -51,3 +50,8 @@ src/components/columns/InfoColumn.js line 23
   <span className="mt-3">davidholyko.github.io/resume</span>
 </div>
 ```
+
+### Steps to print
+
+use firefox
+find print this in the html. print
