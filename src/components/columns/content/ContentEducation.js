@@ -21,10 +21,7 @@ const educations = [
     coursework: true,
     description: [
       'Computer Science: Intro to Java, Data Structures, Game Design, Data Science',
-      'Information Technology: Computer Literacy, Problem Solving with Internet',
-      'Mathematics: Calculus I, Calculus II, Statistics',
-      'Operations: Business Information Systems, Business Intelligence & Analytics',
-      'Business: Law, Accounting, Finance, Marketing, Management'
+      'Information Technology: Computer Literacy, Problem Solving with Internet'
     ]
   }
 ]
@@ -32,7 +29,9 @@ const educations = [
 const ContentEducation = () => (
   <div className="content-education-history">
     <h3 className="text-center border-bottom my-3">Education</h3>
-    {educations.map((education, index) => <ContentEducationItem key={index} education={education} />)}
+    {educations.map((education, index) => (
+      <ContentEducationItem key={index} education={education} />
+    ))}
   </div>
 )
 

@@ -3,9 +3,21 @@ import ContentProjectItem from './ContentProjectItem'
 
 const projects = [
   {
+    title: 'CommunityConnect',
+    summary: 'Code For Boston Open Source Project',
+    skills: 'JavaScript HTML CSS React Redux GoogleSheets',
+    deployed: 'https://ccfor.me/',
+    repo: 'https://github.com/codeforboston/communityconnect',
+    description: [
+      'Implemented a system to organize CSS for quicker development',
+      'Improve site performance by fixing urgent bugs',
+      'Helped onboarding with new developers'
+    ]
+  },
+  {
     title: 'StackOverKo',
     summary: 'A question-response website for developers',
-    skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL Axios',
+    skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL',
     deployed: 'https://davidholyko.github.io/dko-stackoverko-client',
     repo: 'https://github.com/davidholyko/dko-stackoverko-client',
     description: [
@@ -18,7 +30,7 @@ const projects = [
   {
     title: 'LetterBox',
     summary: 'A user friendly, text-only blogsite for cat lovers everywhere',
-    skills: 'JavaScript HTML CSS Express.js MongoDB jQuery Handlebars.js Agile Bootstrap Mobile-Design Responsive-Design',
+    skills: 'JavaScript HTML CSS Express.js MongoDB Mobile-Design',
     deployed: 'https://m-d-h-s.github.io/mdhs-blog-frontend',
     repo: 'https://github.com/davidholyko/mdhs-blog-frontend',
     description: [
@@ -32,7 +44,7 @@ const projects = [
   {
     title: 'Brain Age',
     summary: 'A game application inspired by Brain Age for the Nintendo DS',
-    skills: 'JavaScript HTML CSS Ruby Rails jQuery Handlebars.js Math.js Chart.js Bootstrap PostgreSQL Mobile-Design Responsive-Design',
+    skills: 'JavaScript HTML CSS Ruby Rails PostgreSQL Mobile-Design',
     repo: 'https://github.com/davidholyko/dko-brain-age-front-end',
     deployed: 'https://davidholyko.github.io/dko-brain-age-front-end',
     description: [
@@ -48,7 +60,9 @@ const projects = [
 const ContentProjects = () => (
   <div className="content-projects">
     <h3 className="text-center border-bottom my-3">Web Development Projects</h3>
-    {projects.map((project, index) => <ContentProjectItem key={index} project={project} />)}
+    {projects.map((project, index) => (
+      <ContentProjectItem key={index} project={project} />
+    ))}
   </div>
 )
 

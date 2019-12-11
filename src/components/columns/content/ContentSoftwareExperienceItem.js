@@ -10,6 +10,7 @@ const ContentSoftwareExperience = ({ work }) => (
       </div>
       <span className="ml-auto">{work.date}</span>
     </div>
+    <p className="m-0 font-weight-bold">{work.title}</p>
     <div className="d-flex flex-wrap mb-1">
       {work.tags.map((tag, index) => (
         <span

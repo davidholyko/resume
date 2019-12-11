@@ -3,6 +3,12 @@
   margin: 0in;
 }
 @media print {
+  html {
+    height: 100%;
+    font-size: 10px;
+    background-color: white;
+  }
+
   #header {
     display: none;
     height: 0 !important;
@@ -18,12 +24,6 @@
 
   #container,
   #app {
-    background-color: white;
-  }
-
-  html {
-    height: 100%;
-    font-size: 10px;
     background-color: white;
   }
 
