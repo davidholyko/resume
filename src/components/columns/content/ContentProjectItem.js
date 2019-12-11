@@ -11,10 +11,16 @@ const ContentProjectItem = ({ project }) => {
         <span>{project.summary}</span>
       </a>
       <div className="d-flex flex-wrap mb-1">
-        {skills.map((skill, index) => <span key={index} className={skillClassName}>{skill}</span>)}
+        {skills.map((skill, index) => (
+          <span key={index} className={skillClassName}>
+            {skill}
+          </span>
+        ))}
       </div>
       <ul>
-        {project.description.map((bullet, index) => <li key={index}>{bullet}</li>)}
+        {project.description.map((bullet, index) => (
+          <li key={index}>{bullet}</li>
+        ))}
       </ul>
     </div>
   )
