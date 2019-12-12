@@ -8,7 +8,7 @@ const educations = [
     concentration: 'Full Stack Web Development',
     location: 'Boston, MA',
     description: [
-      'Full time 500+ web development immersive program',
+      'Full time 500+ hour web development immersive program',
       'Developed four full stack web applications using JavaScript, HTML, CSS, and Ruby',
       'Collaborated with a team using agile methodology and scrum principles'
     ]
