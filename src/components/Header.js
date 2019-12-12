@@ -1,6 +1,5 @@
 import React from 'react'
-import pdf from '../resume_pdfs/2019_12_14_David_Ko_Software_Engineer.pdf'
-// import pdf from 'resume_pdfs/David_Ko_Software_Engineer.pdf'
+import pdf from '../resume_pdfs/2019_12_16_David_Ko_Software_Engineer.pdf'
 
 const Header = () => (
   <div id="header">
