@@ -9,8 +9,8 @@ const workExperiences = [
     location: 'Waltham, MA',
     tags: ['JavaScript', 'TypeScript', 'React', 'Redux', 'NestJS', 'PHP'],
     descriptions: [
-      'Coordinates with multiple developers to build a finance application with modern technologies',
-      'Communicates with clients to fix potential bugs',
+      'Coordinates with multiple developers to build applications with modern technologies',
+      'Communicates with team to troubleshoot problems and debug',
       'Builds reusable, functional components with unit testing',
       'Assists in content management for multiple WordPress, Drupal, and Bolt websites'
     ]
